@@ -1,1 +1,1 @@
-axios.get("https://flynn.boolean.careers/exercises/api/random/mail");
+const emailList = document.getElementById("email-list");
