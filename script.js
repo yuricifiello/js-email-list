@@ -6,4 +6,5 @@ axios
   .then((response) => {
     const email = response.data.response;
     const li = document.createElement("li");
+    li.textContent = email;
   });
